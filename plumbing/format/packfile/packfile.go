@@ -6,10 +6,10 @@ import (
 	"os"
 
 	billy "github.com/go-git/go-billy/v5"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/cache"
-	"github.com/go-git/go-git/v5/plumbing/format/idxfile"
-	"github.com/go-git/go-git/v5/plumbing/storer"
+	"github.com/kappyhappy/go-git/v5/plumbing"
+	"github.com/kappyhappy/go-git/v5/plumbing/cache"
+	"github.com/kappyhappy/go-git/v5/plumbing/format/idxfile"
+	"github.com/kappyhappy/go-git/v5/plumbing/storer"
 )
 
 var (

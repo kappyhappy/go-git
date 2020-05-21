@@ -4,10 +4,10 @@ import (
 	"io"
 	"testing"
 
-	git "github.com/go-git/go-git/v5"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/format/packfile"
-	"github.com/go-git/go-git/v5/plumbing/storer"
+	git "github.com/kappyhappy/go-git/v5"
+	"github.com/kappyhappy/go-git/v5/plumbing"
+	"github.com/kappyhappy/go-git/v5/plumbing/format/packfile"
+	"github.com/kappyhappy/go-git/v5/plumbing/storer"
 
 	fixtures "github.com/go-git/go-git-fixtures/v4"
 	. "gopkg.in/check.v1"

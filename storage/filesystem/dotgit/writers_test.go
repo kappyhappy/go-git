@@ -8,9 +8,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/format/idxfile"
-	"github.com/go-git/go-git/v5/plumbing/format/packfile"
+	"github.com/kappyhappy/go-git/v5/plumbing"
+	"github.com/kappyhappy/go-git/v5/plumbing/format/idxfile"
+	"github.com/kappyhappy/go-git/v5/plumbing/format/packfile"
 
 	"github.com/go-git/go-billy/v5/osfs"
 	. "gopkg.in/check.v1"

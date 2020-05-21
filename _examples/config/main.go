@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/go-git/go-git/v5"
-	. "github.com/go-git/go-git/v5/_examples"
-	format "github.com/go-git/go-git/v5/plumbing/format/config"
+	"github.com/kappyhappy/go-git/v5"
+	. "github.com/kappyhappy/go-git/v5/_examples"
+	format "github.com/kappyhappy/go-git/v5/plumbing/format/config"
 
-	"github.com/go-git/go-git/v5/config"
+	"github.com/kappyhappy/go-git/v5/config"
 )
 
 // Example of how to:

@@ -2,8 +2,8 @@ package config
 
 import (
 	. "gopkg.in/check.v1"
-	"github.com/go-git/go-git/v5/plumbing"
-	format "github.com/go-git/go-git/v5/plumbing/format/config"
+	"github.com/kappyhappy/go-git/v5/plumbing"
+	format "github.com/kappyhappy/go-git/v5/plumbing/format/config"
 )
 
 type ConfigSuite struct{}

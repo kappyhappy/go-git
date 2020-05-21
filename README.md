@@ -1,9 +1,9 @@
 ![go-git logo](https://cdn.rawgit.com/src-d/artwork/02036484/go-git/files/go-git-github-readme-header.png)
-[![GoDoc](https://godoc.org/github.com/go-git/go-git/v5?status.svg)](https://pkg.go.dev/github.com/go-git/go-git/v5) [![Build Status](https://github.com/go-git/go-git/workflows/Test/badge.svg)](https://github.com/go-git/go-git/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/go-git/go-git)](https://goreportcard.com/report/github.com/go-git/go-git)
+[![GoDoc](https://godoc.org/github.com/kappyhappy/go-git/v5?status.svg)](https://pkg.go.dev/github.com/kappyhappy/go-git/v5) [![Build Status](https://github.com/kappyhappy/go-git/workflows/Test/badge.svg)](https://github.com/kappyhappy/go-git/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/go-git/go-git)](https://goreportcard.com/report/github.com/go-git/go-git)
 
 *go-git* is a highly extensible git implementation library written in **pure Go**.
 
-It can be used to manipulate git repositories at low level *(plumbing)* or high level *(porcelain)*, through an idiomatic Go API. It also supports several types of storage, such as in-memory filesystems, or custom implementations, thanks to the [`Storer`](https://pkg.go.dev/github.com/go-git/go-git/v5/plumbing/storer) interface.
+It can be used to manipulate git repositories at low level *(plumbing)* or high level *(porcelain)*, through an idiomatic Go API. It also supports several types of storage, such as in-memory filesystems, or custom implementations, thanks to the [`Storer`](https://pkg.go.dev/github.com/kappyhappy/go-git/v5/plumbing/storer) interface.
 
 It's being actively developed since 2015 and is being used extensively by [Keybase](https://keybase.io/blog/encrypted-git-for-everyone), [Gitea](https://gitea.io/en-us/) or [Pulumi](https://github.com/search?q=org%3Apulumi+go-git&type=Code), and by many other libraries and tools.
 
@@ -29,7 +29,7 @@ Installation
 The recommended way to install *go-git* is:
 
 ```go
-import "github.com/go-git/go-git/v5" // with go modules enabled (GO111MODULE=on or outside GOPATH)
+import "github.com/kappyhappy/go-git/v5" // with go modules enabled (GO111MODULE=on or outside GOPATH)
 import "github.com/go-git/go-git" // with go modules disabled
 ```
 
@@ -37,7 +37,7 @@ import "github.com/go-git/go-git" // with go modules disabled
 Examples
 --------
 
-> Please note that the `CheckIfError` and `Info` functions  used in the examples are from the [examples package](https://github.com/go-git/go-git/blob/master/_examples/common.go#L19) just to be used in the examples.
+> Please note that the `CheckIfError` and `Info` functions  used in the examples are from the [examples package](https://github.com/kappyhappy/go-git/blob/master/_examples/common.go#L19) just to be used in the examples.
 
 
 ### Basic example
@@ -123,7 +123,7 @@ You can find this [example](_examples/log/main.go) and many others in the [examp
 Contribute
 ----------
 
-[Contributions](https://github.com/go-git/go-git/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) are more than welcome, if you are interested please take a look to
+[Contributions](https://github.com/kappyhappy/go-git/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) are more than welcome, if you are interested please take a look to
 our [Contributing Guidelines](CONTRIBUTING.md).
 
 License
